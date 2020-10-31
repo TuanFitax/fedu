@@ -1,4 +1,11 @@
-for(i=0; i<=5; i++)
+var hocvien = {
+    ten: "nguyen a",
+    tuoi: 31,
+    chieucao: 170
+};
+console.log(hocvien['ten']);
+var x;
+for (x in hocvien)
 {
-    console.log(i);
+    console.log(hocvien[x]);
 }
