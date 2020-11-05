@@ -1,6 +1,3 @@
-var x= 'Tuan';
-var y = '31 tuoi';
-console.log('xin chao'+ x+ '!'
-            + 'co phai anh '+ y+ 
-            'hay khong'
-        );
+var name = 'nguyen anh tuan';
+var cmt = `<h2 class='cm'>xin chao ${name}</h2>`;
+console.log(cmt);
